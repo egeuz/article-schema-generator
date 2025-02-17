@@ -1,5 +1,5 @@
 'use client'
-import Head from 'next';
+import Head from 'next/head';
 import { useActionState } from 'react';
 import { generateSchemas } from './actions';
 // components
