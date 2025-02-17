@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+textarea {
+  width: 100%;
+}
+
+form button {
+  padding: 1rem 0;
+}
+
+.schema-header {
+  background: #eee;
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.schema-header .actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.schema-header button {
+  background: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.schema-header button:hover {
+  background: #ddd;
+}
+
+.schema-body {
+  background: #fafafa;
+  padding: 1rem 2rem;
+}
